@@ -1,14 +1,20 @@
 # genai-adoption-analysis
 ### Synopsis: 
-Telecom and Cable companies face multiple challenges in the current market with customer churn. Churn refers to the rate at which customers stop using the services and move to a competitor. Predicting customer churn allows companies to proactively identify customers at risk of leaving, enabling them to implement targeted retention strategies
+Organizations are rapidly adopting generative AI(GenAI), but the true impact on workforce productivity remains unclear. Leaders seek evidence-backed guidance to:
+Justify AI investments
+Optimize training Strategies
+Minimize Employee training
+Align GenAI with business value
+The GenAI wave (ChatGPT, Claude, Gemini, etc.) is reshaping enterprise workflows. While tech integration is widespread, there’s limited empirical evidence, comparing which tools perform better, and under what organizational contexts (e.g., workforce size, training intensity, sentiment response)
+The project will utilize the "Enterprise GenAI Adoption and Workforce Impact Data" dataset available on Kaggle (Enterprise GenAI Adoption, n.d.) (https://www.kaggle.com/datasets/tfisthis/enterprise-genai-adoption-and-workforce-impact-data/data). It contains rich features related to Organization type, tool adopted, workforce impact, training efforts, productivity changes etc.
 
 ### Getting Started
 To explore and run the analysis:
 
 Clone the repository:
 ``` Bash
-git clone https://github.com/barath-anandaraman/customer-churn.git
-cd customer-churn
+git clone https://github.com/barath-anandaraman/genai-adoption-analysis.git
+cd genai-adoption-analysis
 # Install Dependencies: It's recommended to use a virtual environment.
 
 
@@ -19,5 +25,5 @@ pip install -r requirements.txt
 jupyter lab
 # or
 jupyter notebook
-#From the Jupyter interface, you can then open and run the customer-churn.ipynb files 
+#From the Jupyter interface, you can then open and run the productivity-dynamics.ipynb files 
 # to see the sentiment analysis in action.
